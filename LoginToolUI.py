@@ -27,7 +27,7 @@ HTTPheader = {"Content-type": "application/x-www-form-urlencoded",
 def getItemFromFile():
 	res={}
 	try:
-		infofile=open(sys.path[0]+"/info.txt")
+		infofile=open("info.txt")
 		for line in infofile:
 			line=[x.strip() for x in line.split("=")]
 			res[line[0]]=line[1]
@@ -130,7 +130,7 @@ class mainDlg():
 		res=self.cnc.login(uname,pword)
 		
 		if(res['status']):
-			infofile=open(sys.path[0]+"/info.txt","w")
+			infofile=open("info.txt","w")
 			infofile.write("%s=%s\n" % ('uname',uname))
 			infofile.write("%s=%s\n" % ('pword',res['pword']))
 			infofile.close()
