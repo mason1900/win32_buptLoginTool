@@ -4,7 +4,7 @@
 北邮网关登录工具buptLoginTool，基于python 和 pyGTK编写
 程序作者丁神，我在其基础上做了一点点修改，在Windows环境下编译成功，由于条件有限，目前只是在一台XP和Vista上进行了测试，欢迎测试～
 部分机上需要VC 2008运行库
-如不能运行，请将文件夹下生成的.log文件内容回复在下面，或者发给mw2010a@gmail.com
+如不能运行，请将文件夹下生成的.log文件内容回复在下面，或者发给<deleted>
 
 #### Win32版地址
 http://pan.baidu.com/share/link?shareid=3416&uk=503587752（百度网盘，5MB左右）
